@@ -1,7 +1,7 @@
 package object_orientated_useage
 
 import (
-	o "mkdirjava/golangSite/pkg/tour_of_go/object_orientated/my_first_struct"
+	o "mkdirjava/golangSite/methods_and_interfaces/my_first_struct"
 	"testing"
 
 	"github.com/go-playground/assert/v2"

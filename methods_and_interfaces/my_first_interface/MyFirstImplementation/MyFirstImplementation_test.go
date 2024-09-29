@@ -3,7 +3,7 @@ package myfirstinterface
 import (
 	"testing"
 
-	i "mkdirjava/golangSite/pkg/tour_of_go/object_orientated/my_first_interface"
+	i "mkdirjava/golangSite/methods_and_interfaces/my_first_interface"
 
 	"github.com/go-playground/assert/v2"
 )
@@ -18,5 +18,6 @@ import (
 var unit i.MyFirstInterface = MyFirstImplementation{}
 
 func Test_MyFirstImplemation(t *testing.T) {
-	assert.Equal(t, "hi", unit.GetExportedString())
+	unit.SetString("home")
+	assert.Equal(t, "", unit.GetExportedString())
 }

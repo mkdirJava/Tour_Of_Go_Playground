@@ -6,4 +6,5 @@ package myfirstinterface
 
 type MyFirstInterface interface {
 	GetExportedString() string
+	SetString(string)
 }
